@@ -1,0 +1,22 @@
+h1{
+    color: rgb(155, 13, 155); 
+    text-align: center; 
+    text-decoration: underline;
+    text-transform: uppercase; 
+    font-style: italic; 
+    font-size: xx-large;
+
+}
+
+.main_menu{
+    background-color: rgb(97, 94, 89);
+    overflow: hidden;
+}
+
+.main_menu a{
+    padding: 12px 16px ;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: antiquewhite;
+}
