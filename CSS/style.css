@@ -9,7 +9,7 @@ h1{
 }
 
 .main_menu{
-    background-color: rgb(97, 94, 89);
+    background-color: rgb(100, 9, 56);
     overflow: hidden;
 }
 
@@ -18,5 +18,5 @@ h1{
     display: block;
     float: left;
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(203, 238, 237);
 }
