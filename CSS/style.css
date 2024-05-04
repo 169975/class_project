@@ -20,3 +20,19 @@ h1{
     text-decoration: none;
     color: rgb(203, 238, 237);
 }
+
+body{
+    /*background-image: url('images/bg/pexels-background.jpg');*/
+background-color: color-mix(in srgb, purple 30%, white 70%);
+
+}
+
+h2{
+
+color: green;
+text-align: justify;
+text-decoration: solid;
+text-transform:capitalize;
+font-style: italic;
+
+}
