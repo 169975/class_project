@@ -22,9 +22,8 @@ h1{
 }
 
 body{
-    /*background-image: url('images/bg/pexels-background.jpg');*/
-background-color: color-mix(in srgb, purple 30%, white 70%);
 
+background-color: rgb(239, 233, 242);
 }
 
 h2{
@@ -36,3 +35,5 @@ text-transform:capitalize;
 font-style: italic;
  
 }
+
+
