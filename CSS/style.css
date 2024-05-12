@@ -36,4 +36,16 @@ font-style: italic;
  
 }
 
+.topheading{
+    background-color: rgb(238, 235, 230);
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.main_menu a:hover{
+    background-color: rgb(241, 249, 246);
+
+
+}
 
