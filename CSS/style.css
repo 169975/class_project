@@ -22,8 +22,10 @@ h1{
 }
 
 body{
-
+padding-bottom: 58px;
+position: relative;
 background-color:rgb(202, 218, 219);
+min-height: 100vh;
 }
 
 h2{
@@ -52,14 +54,22 @@ font-style: italic;
 .content{
     float: left;
     padding: 20px;
-    width: 50%;
+    width: 70%;
 }
 
 .content2{
     float: right;
     padding: 50px;
-    width: 50%;
+    width: 30%;
 }
-
+.footer_down{
+    position: fixed;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
 
 
