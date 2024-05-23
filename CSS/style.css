@@ -104,3 +104,12 @@ tr:hover{
     background-color: rgb(252, 251, 251);
 }
 
+img{
+    width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+   .content, .content2{
+    width: 100%;
+   } 
+}
