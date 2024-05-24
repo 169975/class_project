@@ -40,12 +40,12 @@ print $user_data["email"];
     "email" => "AOkama@yahoo.com",
     "phone" =>[
         "Home" => "+2548458565",
-        "Work"
+        "Work" => "+819740127417",
+        "Mobile"=>"0930497109109",
 
+    
     ]
-    "+2548458965"
-    ]
-        ),
+),
     ?>
 
 

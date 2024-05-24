@@ -49,6 +49,11 @@ font-style: italic;
 
 
 }
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
 
 .content{
     float: left;
@@ -58,12 +63,12 @@ font-style: italic;
 
 
 .footer_down{
-    position: fixed;
+   
     background-color: blueviolet;
     padding: 20px;
     text-align: center;
     width: 100%;
-    bottom: 0;
+
     
 }
 
@@ -75,7 +80,7 @@ font-style: italic;
 
 table{
     border: 1px solid  #373737;
-    width: 50%; 
+    width: 70%; 
     border-collapse: collapse;
     float: right;
     padding: 30px;
