@@ -1,0 +1,29 @@
+body{
+    padding-bottom: 58px;
+    background-color:rgb(202, 218, 219);
+    min-height: 100vh;
+    }
+   
+.row::after{
+        content: "";
+        clear: both;
+        display: block;
+    }  
+
+.footer_down{
+   
+        background-color: blueviolet;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    
+        
+    }
+
+    .topheading{
+        background-color: rgb(238, 235, 230);
+        padding: 20px;
+        text-decoration: none;
+    
+    }
+    

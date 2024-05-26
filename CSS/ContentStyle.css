@@ -1,0 +1,42 @@
+h1{
+    color: rgb(155, 13, 155); 
+    text-align: center; 
+    text-decoration: underline;
+    text-transform: uppercase; 
+    font-style: italic; 
+    font-size: xx-large;
+
+}
+
+
+h2{
+
+color: green;
+text-align: justify;
+text-decoration: solid;
+text-transform:capitalize;
+font-style: italic;
+ 
+}
+
+.content{
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+
+
+
+
+.content2{
+    float: left;
+    padding: 30px;
+    width: 50%;
+}
+
+
+@media screen and (max-width: 700px) {
+   .content, .content2{
+    width: 100%;
+   } 
+}
