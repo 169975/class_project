@@ -1,5 +1,8 @@
 <?php
 
+
+date_default_timezone_set("Africa/Nairobi");
+
 echo "This is my first php code";//Displaying a sentence or a string
 
 print "<br>";//using HTML's <br> to break a line
@@ -25,10 +28,7 @@ print date('d/F/Y', strtotime('+ 5months'));
 
 print "<br>";//using HTML's <br> to break a line
 
-date_default_timezone_set("Africa/Nairobi");
-
-print "Today is " .date('l,F jS Y H:i:s')
-
+print "Today is " .date('l,F jS Y H:i:s');
 
 //Creating(Declaring) a variable
 $fname = "Alex Okama";//Declaration of a variable or a string or a group of words.
@@ -49,7 +49,7 @@ print "<br>";//using HTML's <br> to break a line
 
 echo $fname . "was actually born on " . date('l, F jS Y', strtotime($user_dob));
 
-$current_year=date('Y';)
+$current_year=date('Y');
 
 echo $current_year;
 
@@ -77,7 +77,7 @@ echo'</pre>';
 
 print "<br>";//using HTML's <br> to break a line
 
-print $fname . "is, actually, ". $interval->y. "years" . $interval->m . "months, and " . $interval->d . "days old.";
+print $fname . " is, actually, ". $interval->y. " years " . $interval->m . " months, and " . $interval->d . " days old.";
 
 //The if...else ...statement
 
@@ -85,7 +85,36 @@ print "<br>";//using HTML's <br> to break a line
 
 $adult_age=18;
 if($interval->y > $adult_age){
-    print $fname . "is an adult";//event in block to be executed if the condition is true
+    print $fname . " is an adult";//event in block to be executed if the condition is true
+}else{
+    print $fname . " is NOT an adult";//event in block to be executed if the condition is false
+}   
 
-}
+//variable Characteristics
+
+print "<br>";//using HTML's <br> to break a line
+
+
+$last_name ="Okama";//FIRST WAY OF DECLARING VARIABLES
+
+echo "My last name is $last_name";
+
+print "<br>";//using HTML's <br> to break a line
+
+echo '  My last name is ' . $last_name;
+
+print "<br>";//using HTML's <br> to break a line
+
+echo "Today is " . date('l');
+
+print "<br>";//using HTML's <br> to break a line
+
+$call ['lname']= "Okama";//SECOND WAY OF DECLARING VARIABLES
+print $call['lname'];
+
+print "<br>";//using HTML's <br> to break a line
+
+define('LNAME', 'Okama');///THIRD WAY OF DECLARING VARIABLES
+echo LNAME;
+
 ?>
