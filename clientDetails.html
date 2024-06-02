@@ -21,19 +21,25 @@ Telephone: +254-789-123-45/77</p>
     <h1>Forms </h1>
     <form action="" method="post" class="clientDetails">
         <label for="fn">Fullname:</label><br>
-        <input type="text"id="fn"
-        placeholder="Enter Fullname" ><br><br>
+        <input type="text" id="fn"
+        placeholder="Enter Fullname" required ><br><br>
         
 
-        <!--label for="pwd">Password:</label><br>
-        <input type="password"id="pwd"
-        placeholder="Enter password" ><br><br-->
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd"
+        placeholder="Enter password" maxlength="10"><br><br>
 
-        <input type="number"
-        placeholder="age"><br><br>
+        <label for="age">Age:</label><br><br>
+        <input type="number" id="age" 
+        placeholder="age" required><br><br>
 
-        <input type="email"
+        <label for="em">E-mail:</label><br><br>
+        <input type="email" id="em"
         placeholder="email" ><br><br>
+
+        <label for="telno">Telephone number</label><br><br>
+        <input type="tel" id="telno" placeholder="#####"><br><br>
+
 
         <input type="time"
         placeholder="deadline"><br><br>
