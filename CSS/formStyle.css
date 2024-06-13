@@ -12,7 +12,7 @@ input[type=text], [type=password],[type=number],[type=email] [type=tel],textarea
     margin: 8px 0;
 }
 
-input[type=submit]{
+input[type=submit],[type=reset]{
     width: 40%;
     padding: 12px 20px;
     font-size: 1.6em;
