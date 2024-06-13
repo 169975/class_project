@@ -2,7 +2,7 @@
     font-size: 1.8em;
 }
 
-input[type=text], [type=password],[type=number],[type=email] [type=tel],textarea{
+input[type=text], [type=password],[type=number],[type=email], [type=tel],textarea{
     width: 60%;
     padding: 12px 20px;
     font-size: 1.6em;
