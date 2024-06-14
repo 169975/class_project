@@ -13,7 +13,7 @@
         <h1>Thank you for visiting our website!</h1>
     </div>
     <p>Book an interview or make a reservation today: <br>
-E-mail: rhemaresidents.gmail.com <br>
+E-mail: rhemaresidents@gmail.com <br>
 Telephone: +254-789-123-45/77</p>
     <h1>Forms </h1>
     <form action="" method="post" class="clientDetails">
