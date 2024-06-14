@@ -8,17 +8,7 @@
 </head>
 <body>
 
-    <div class="main_menu">
-        <a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href="activities.html">Fun activities and more</a> | <a href="Christianity.html">Christian Center</a> | <a href="homes.html"> Home types</a> | <a href="hostel.html">Student hostel</a> | <a href="clientDetails.html">Contact Us</a>
-     
-        <div class="main_menu-right">
-            <a href="sign_up.html">Sign Up</a>
-            <a href="sign_in.html">Sign In</a>
-        </div>
-    
-
-    </div>
-
+<?php include_once ("templates/navigate.php");?>
     
 
     <div class="topheading">
