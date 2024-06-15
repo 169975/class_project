@@ -16,10 +16,7 @@
     <h2>Welcome to our website!</h2>
     <img src="images/pixabay homepage.jpg" alt="" width="100%">
 
-    <div class="footer_down">
-        Copyright BBIT 2.1 &copy; Allrights reserved 
-    </div>
-    
+    <?php include_once("templates/footer.php");?>
 </body>
 
 

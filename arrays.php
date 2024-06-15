@@ -46,6 +46,10 @@ print $user_data["email"];
     
     ]
 ),
+
+print $user_details
+["Secretary"]["phone"];
+
     ?>
 
 
@@ -54,5 +58,3 @@ print $user_data["email"];
 
 
 
-print $user_details
-["Secretary"]["phone"]

@@ -19,8 +19,6 @@
 <img src="images/pexels-michael-Christianity.jpg" alt="" width="50%">
 <h2>Welcome to this great opportunity to worship,pray and connect!</h2>
 </body>
-<div class="footer_down">
-    Copyright BBIT 2.1 &copy; Allrights reserved 
-</div>
+<?php include_once("templates/footer.php");?>
 
 </html>

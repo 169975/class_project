@@ -69,10 +69,7 @@ Telephone: +254-789-123-45/77</p>
 <input type="submit" value="save details">
     </form>
 
-    <div class="footer_down">
-        Copyright BBIT 2.1 &copy; Allrights reserved 
-    </div>
-
+   <?php include_once("templates/footer.php");?>
 </body>
 
 

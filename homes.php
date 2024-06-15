@@ -26,15 +26,8 @@
     <p style="background-color: darkturquoise; text-decoration: solid;font-size: xx-large;">The above images are samples of designs, the owner of the house has freedom to choose any design that suites them. </p>
 
 
-    <div class="footer_down">
-        Copyright BBIT 2.1 &copy; Allrights reserved 
-    </div>
-
+   
 </body>
 
-
-
-
-
-
+<?php include_once("templates/footer.php");?>
 </html>
