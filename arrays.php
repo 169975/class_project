@@ -48,9 +48,9 @@ print $user_data["email"];
 ),
 
 print $user_details
-["Secretary"]["phone"];
+["Secretary"]["phone"]
 
-    ?>
+ 
 
 
 
