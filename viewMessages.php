@@ -8,9 +8,8 @@
 </head>
 
 
-<?php include_once ("templates/navigate.php");?>
-<?php require_once("include/database_connect.php");?>
-   
+<?php include_once ("templates/navigate.php");
+      require_once ("includes/database_connect.php");?>
 
 
     <div class="topheading">
@@ -19,7 +18,7 @@
 
 
     <table> 
-    
+    <div class="content2">
     <tr>
         <th>Sender name</th>
         <th>Sender Email </th>
@@ -30,7 +29,7 @@
     </tr>
     
 <?php
-        $select_msg = "SELECT * FROM  'messages' ";
+        $select_msg = "SELECT * FROM `messages`";
         $sel_msg_res = $conn->query($select_msg);
 
         if ($sel_msg_res->num_rows > 0) {
@@ -53,11 +52,6 @@
         }
  ?>       
 
-
-
-
-        </table>
+</table>
+</div>
 <?php include_once("templates/footer.php");?>
-
-
-
