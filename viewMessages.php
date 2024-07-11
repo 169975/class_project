@@ -43,7 +43,7 @@
         <td><?php print $sel_msg_row["sender_name"];?></td>
         <td><?php print $sel_msg_row["sender_email"];?></td>
         <td><?php print $sel_msg_row["text_message"];?></td>
-        <td><?php print $sel_msg_row["dateupdated"];?></td>
+        <td><?php print date("d-M-Y H:i", strtotime($sel_msg_row["dateupdated"]));?></td>
 
     </tr>
  <?php
