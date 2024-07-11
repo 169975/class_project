@@ -16,12 +16,11 @@
     $fn=$_POST["fullname"];
     $pwd=$_POST["password"];
     $em=$_POST["e-mail"];
-    $gd=$_POST["gender"];
     $message=$_POST["message"];
 
 
-$insert_message = "INSERT INTO messages (sender_name, sender_password, sender_email,sender_gender,text_message)
- VALUES ('$fn','$pwd','$em', '$gd', '$message')";
+$insert_message = "INSERT INTO messages (sender_name, sender_password, sender_email,text_message)
+ VALUES ('$fn','$pwd','$em','$message')";
  
  if ($conn->query($insert_message) === TRUE) {
    echo "New record created successfully";

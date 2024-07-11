@@ -30,7 +30,14 @@
     
     <tr>
         <td>1.</td>
-        <td><?php print $sel_msg_row[]</td>
+        <td><?php print $sel_msg_row[""];?></td>
+        <td><?php print $sel_msg_row[""];?></td>
+        <td><?php print $sel_msg_row[""];?></td>
+        <td><?php print $sel_msg_row[""];?></td>
+
+
+
+
     </tr>
     
     <tr>
