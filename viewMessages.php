@@ -31,13 +31,15 @@
 <?php
         $select_msg = "SELECT * FROM `messages`";
         $sel_msg_res = $conn->query($select_msg);
-
+        $en=0;
         if ($sel_msg_res->num_rows > 0) {
+            
         // output data of each row
         while($sel_msg_row = $sel_msg_res->fetch_assoc()) {
-  ?>     
+            $en++;
+  ?>      
  <tr>
-        <td>1.</td>
+        <td><?php print $en; ?></td>
         <td><?php print $sel_msg_row["sender_name"];?></td>
         <td><?php print $sel_msg_row["sender_email"];?></td>
         <td><?php print $sel_msg_row["text_message"];?></td>
