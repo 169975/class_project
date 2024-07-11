@@ -85,6 +85,7 @@ Telephone: +254-789-123-45/77</p>
    
 </textarea>
 
+<label for="gd">Gender:</label>
 <select name="gender" id="gd" required>
     <option value="">--Select Gender--</option>
     <option value="">Female</option>

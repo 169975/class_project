@@ -20,8 +20,12 @@
     <table> 
     
     <tr>
-        <th colspan="2">Room Type</th>
-        <th>Price</th>
+        <th>Sender name</th>
+        <th>Sender Email </th>
+        <th>Sender Message </th>
+
+       
+
     </tr>
     
     <tr>
@@ -43,17 +47,17 @@
 
 
 
-$select_msg = "SELECT * FROM  'messages' ";
-$sel_msg_res = $conn->query($select_msg);
+        $select_msg = "SELECT * FROM  'messages' ";
+        $sel_msg_res = $conn->query($select_msg);
 
-if ($sel_msg_res->num_rows > 0) {
-  // output data of each row
-  while($sel_msg_row = $sel_msg_res->fetch_assoc()) {
-    echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
-  }
-} else {
-  echo "0 results";
-}
+        if ($sel_msg_res->num_rows > 0) {
+        // output data of each row
+        while($sel_msg_row = $sel_msg_res->fetch_assoc()) {
+            echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+        }
+        } else {
+        echo "0 results";
+        }
 
 
 
