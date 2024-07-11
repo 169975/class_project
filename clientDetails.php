@@ -83,7 +83,7 @@ Telephone: +254-789-123-45/77</p>
 <label for="msg">Write the Message Here:</label><br>
 <textarea name="message" id="" cols="30" rows="10"required >
    
-</textarea>
+</textarea><br>
 
 <label for="gd">Gender:</label>
 <select name="gender" id="gd" required>

@@ -22,15 +22,15 @@
     <tr>
         <th>Sender name</th>
         <th>Sender Email </th>
-        <th>Sender Message </th>
-
+        <th>Sender Message</th>
+        <th>Time</th>
        
 
     </tr>
     
     <tr>
-        <td>Single room</td>
-        <td>Ksh.25,000</td>
+        <td>1.</td>
+        <td><?php print $sel_msg_row[]</td>
     </tr>
     
     <tr>
