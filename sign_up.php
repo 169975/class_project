@@ -8,8 +8,8 @@
 
 </head>
 <body>
-    <?php include_once ("templates/navigate.php");?>
-<?php require_once("include/database_connect.php");?>
+    <?php include_once ("templates/navigate.php");
+         require_once("includes/database_connect.php");?>
     <div class="topheading">
 <h1>
 Create an account here!
