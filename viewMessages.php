@@ -15,8 +15,9 @@
     <div class="topheading">
     <h1>Message Table</h1>
     </div>
+    
 
-
+    <div class="row">
     <table> 
     <div class="content2">
     <tr>
@@ -56,4 +57,16 @@
 
 </table>
 </div>
+</div>
 <?php include_once("templates/footer.php");?>
+
+
+
+
+
+
+
+
+
+
+   
